@@ -28,40 +28,40 @@
             </style>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #85d4b7;">
-        <a class="navbar-brand" href="#"><img src="static/img/logo.png" class="d-block w-100 rounded mx-auto" alt="Logo" width="30" height="30"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            
-        </button>
-            <nav class="col-xs-12 col-md-6">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-                    <a class="nav-link btn btn-navbar" style="color:white" href="#">GATUNOS</a>
-                </li>
-					</ul>
-					<ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link btn btn-navbar" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-navbar" href="#rescatados">Rescatados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-navbar" href="#servicios">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-navbar" href="./contact.html">Contáctanos</a>
-                </li>
-                    </ul>
-                    </div>
-            </nav>
-        </section>
-
-    </nav>
-    </header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #85d4b7;">
+            <a class="navbar-brand" href="#"><img src="static/img/logo.png" class="d-block w-100 rounded mx-auto" alt="Logo" width="30" height="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+                <nav class="col-xs-12 col-md-6">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-navbar" style="color:white" href="#">GATUNOS</a>
+                    </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-navbar" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-navbar" href="#rescatados">Rescatados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-navbar" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-navbar" href="./contact.html">Contáctanos <span class="sr-only">(current)</span></a>
+                    </li>
+                        </ul>
+                        </div>
+                </nav>
+            </section>
+    
+        </nav>
+        </header>
 
 <!--Carousel-->
 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -99,62 +99,11 @@
 
 
 
-        <!--Informacion de la pagina-->
-        <div class="container" id="servicios">
-            <div class="row">
-                <div class="col-xs-12 col-ms-6 col-md-6 derecha">
-                    <h1>RESCATE</h1>
-                    <h5>ETAPA UNO</h5>
-                    <hr>
-                    <p>
-                        Rescatamos perros en situacion de peligro y/o abandono.
-                        Los rehabilitamos y los preparamos para buscarles un hogar.
-                    </p>
-                    <img src="static/img/rescate.jpg" class="img-fluid" alt="rescate" >
-                </div>
-                <div class="col-xs-12 col-ms-6 col-md-6 izquierda">
-                    <img src="static/img/comida.jpg" class="img-fluid" alt="crowfunding" >
-                    <h1>CROWDFUNDING</h1>
-                    <h5>FINANCIAMIENTO</h5>
-                    <hr>
-                    <p>
-                        Sigue nuestras redes sociales para informarte acerca de las 
-                        diversas capañas y actividades que realizamos para obtener 
-                        financiamiento para seguir ayudando.
-                    </p>
-                    <a class="btn btn-outline-dark" href="#">Campañas</a>
-                </div>
-            </div>
-        </div>
-        <!--Fin Informacion de la pagina-->
-            <!--Redes Sociales-->
-            <div class="row" id="redesSociales">
-                <div class="col-md-12 text-center">
-                    <a href="https://es-la.facebook.com/" target="_blank"><span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                    </span></a>
-                    <a href="https://www.google.es/" target="_blank"><span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-google-plus-g fa-stack-1x fa-inverse"></i>
-                    </span></a> 
-                    <a href="https://www.instagram.com/" target="_blank"><span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                    </span></a>
-                    <a href="https://www.google.com/intl/es/gmail/about/#" target="_blank"><span class="fa-stack fa-2x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                    </span></a>
-                </div>
-            </div>
-            <!--Fin Redes Sociales-->
-
 <!---formulario-->
     <div class="container">
-        <form action="/postulante/crear" id="formulario" method="POST">
+        <form action="/contacto/crear" id="formulario" method="POST">
 
-        <h1>Registro de Postulante</h1>
+        <h1>Contacto</h1>
         <div class="row">
             <div class="col-md-4">
                 <div class="form-group">
@@ -255,6 +204,7 @@
             <div class="container-fluid" style="background-color:#e6e6e6;">
                 <h6>Ricardo Vásquez</h6>
             </div>
+        
         </footer>
 
     </section>
